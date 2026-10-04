@@ -22,7 +22,7 @@ git clone https://github.com
 cd SIT102-Drum-Machine
 
 # 3. Compile the C++ source files (replace main.cpp with your file names if needed)
-g++ -std=c++11 src/main.cpp -o drum_machine
+g++ -std=c++11 HD.cpp utilities.cpp -o drum_machine
 
 # 4. Run the executable
 ./drum_machine
